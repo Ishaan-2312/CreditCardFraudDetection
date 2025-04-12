@@ -9,7 +9,7 @@ import org.bson.Document;
 import java.util.concurrent.TimeUnit;
 // 2XFKOMC1gvCoTbMc
 public class MongoDBConnector {
-    private static final String URI = "mongodb+srv://Ishaan:Ishaan@cluster0.q7oqqsw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+    private static final String URI = "<Your Mongo URL>";
     private static final String DATABASE_NAME = "fraudDetection";
     private static final String COLLECTION_NAME = "transactions";
     private final MongoClient mongoClient;
